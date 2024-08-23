@@ -1,10 +1,10 @@
-#include <studio.h>
-#include <stdlib.h>
+// #include <studio.h>
+// #include <stdlib.h>
 
-int main(int argc, char * argv[]{
-    int n, i, j, x = 0;     // 1
+int main(int argc, char *argv[]){
+    int n, i, j, x, k = 0;     // 1
 
-    printf("Digiten:");     // 1
+    printf("Digite n:");     // 1
     scanf("%d", &n);        // 1
 
     // for(i=0; i<n; i++){
@@ -21,8 +21,8 @@ int main(int argc, char * argv[]{
         }
     }
 
-    printf("x = %d", x)     // 1
+    printf("x = %d", x);     // 1
 
     return 0;               // 1
-// })                          // n^2 +5
-})                          // n^3 +5
+// }                          // n^2 +5
+}                           // n^3 +5
